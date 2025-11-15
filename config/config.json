@@ -43,8 +43,8 @@
             "id": "SP001",
             "name": "Ph\u00e2n lo\u1ea1i A",
             "sensor_pin": 5,
-            "push_pin": 12,
-            "pull_pin": 11
+            "push_pin": 11,
+            "pull_pin": 12
         },
         {
             "id": "SP002",
