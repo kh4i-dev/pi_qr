@@ -240,9 +240,9 @@ config_file_lock = threading.Lock()
 #       KHAI BÁO CHÂN GPIO
 # =============================
 DEFAULT_LANES_CONFIG = [
-    {"id": "SP001", "name": "Phân loại 1", "sensor_pin": 5, "push_pin": 11, "pull_pin": 12},
-    {"id": "SP002", "name": "Phân loại 2", "sensor_pin": 16, "push_pin": 13, "pull_pin": 8},
-    {"id": "SP003", "name": "Phân loại 3", "sensor_pin": 18, "push_pin": 15, "pull_pin": 7},
+    {"id": "SP001", "name": "Phân loại 1", "sensor_pin": 5, "pull_pin": 12, "push_pin": 11},
+    {"id": "SP002", "name": "Phân loại 2", "sensor_pin": 16, "pull_pin": 8, "push_pin": 13},
+    {"id": "SP003", "name": "Phân loại 3", "sensor_pin": 18, "pull_pin": 7, "push_pin": 15},
     {"id": "NG", "name": "Sản Phẩm NG(Bỏ)", "sensor_pin": None, "push_pin": None, "pull_pin": None},
 ]
 lanes_config = DEFAULT_LANES_CONFIG
